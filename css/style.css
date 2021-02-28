@@ -1,0 +1,807 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: ease all 0.5s;
+    font-family: serif;
+    font-family: serif;
+    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu1 .navbar span {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.header {
+    background: #052501;
+    overflow: auto;
+}
+
+.header ul {
+    padding: 25px;
+    float: right;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.header .logo img {
+    float: left;
+    padding-top: 20px;
+}
+
+.header ul li {
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.header ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.header ul li img {
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar {
+    background: black;
+    color: white;
+    overflow: auto;
+    ;
+}
+
+.navbar ul li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 26px;
+}
+
+.contner {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    overflow: auto;
+}
+
+.contaner-float {
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+    overflow: auto;
+}
+
+.navbar .search input {
+    padding: 11px;
+}
+
+.navbar .search {
+    margin: 10px;
+    display: inline-flex;
+}
+
+.navbar .search button {
+    background: #052501;
+    padding-right: 26px;
+    border: 0px;
+}
+
+.navbar .search button img {
+    margin-left: 10px;
+}
+
+
+/* slider */
+
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.sliders {
+    width: 500%;
+    display: flex;
+    height: 500px;
+}
+
+.slider input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 100%;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: black;
+}
+
+#radio1:checked~.frist {
+    margin-left: 0;
+}
+
+#radio2:checked~.frist {
+    margin-left: -20%;
+}
+
+#radio3:checked~.frist {
+    margin-left: -40%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    width: 800px;
+    padding: 5px;
+}
+
+.navigation-auto div {
+    border: 3px solid black;
+    padding: 5px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 30px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: black;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: black;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: black;
+}
+
+
+/* fitter */
+
+.futtor {
+    background: #052501;
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+}
+
+.box {
+    float: left;
+    width: 25%;
+    padding: 50px;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    padding: 10px;
+}
+
+.box ul li img {
+    padding-right: 16px;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.box .input1 {
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+
+.box .submit1 {
+    background: green;
+    border: 0px;
+    padding: 5% 27%;
+    font-size: 23px;
+    color: white;
+    border-radius: 10px;
+}
+
+strong {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    border-bottom: #3e7f21 solid 4px;
+    margin-bottom: 20px;
+    width: 226px;
+}
+
+.title2 {
+    margin-top: 20px;
+}
+
+
+/* map  */
+
+.box2 {
+    margin: 40px;
+    border-radius: 14px;
+    position: absolute;
+}
+
+.box2 .input1,
+textarea {
+    margin: 12px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+    width: -webkit-fill-available;
+}
+
+.box2 .value1 {
+    padding: 13px 36px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.box2 form {
+    width: min-content;
+    background: #052501;
+    padding: 45px;
+}
+
+.title h2 {
+    margin: 63px;
+    text-align: center;
+    font-size: 41px;
+}
+
+span {
+    color: green;
+}
+
+
+/*  Product */
+
+.box3 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    display: block;
+}
+
+.box4 {
+    float: left;
+    width: 67%;
+    padding: 50px;
+    display: block;
+}
+
+.box4 img {
+    width: 100%;
+    height: 50%;
+}
+
+.product {
+    width: 100%;
+}
+
+.box3 img {
+    width: 100%;
+    height: 50%;
+}
+
+.box3 .sub-title {
+    background: #052501;
+    opacity: .9;
+    padding: 12px;
+    margin-top: -98px;
+}
+
+.box4 .sub-title {
+    background: #052501;
+    opacity: .9;
+    padding: 12px;
+    margin-top: -104px;
+}
+
+.box4,
+.box3 h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* offer */
+
+.offer {
+    background: #052501;
+    overflow: hidden;
+}
+
+.offer .box3 h3 {
+    margin: 20px;
+}
+
+.offer .box3 p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box3 .input3 {
+    padding: 14px 51px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 20px;
+}
+
+
+/* value  */
+
+.value2 {
+    background: #052501;
+    padding: 38px;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 20px;
+    text-align: center;
+}
+
+.box h1 {
+    color: green;
+    font-size: 48px;
+}
+
+.box h2 {
+    line-height: 1px;
+    font-size: 22px;
+}
+
+.box h2 {
+    color: white;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+}
+
+
+/* about  */
+
+.box5 {
+    float: left;
+    width: 50%;
+    padding: 35px;
+}
+
+.box5 img {
+    width: 100%;
+}
+
+.box5 p {
+    font-size: 22px;
+    text-align: justify;
+    margin-top: -69px;
+    line-height: 1.5;
+}
+
+.box5 input {
+    background: #052501;
+    padding: 12px 30px;
+    color: white;
+    margin: 29px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+/* slider */
+
+.textSlider {
+    position: absolute;
+    margin-top: -27%;
+    font-size: 20px;
+    text-align: inherit;
+    padding: 0px 149px;
+    color: white;
+}
+
+.textSlider h2 {
+    font-size: 45px;
+}
+
+.slideshow-container,
+.testomonial {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.textSlider input {
+    margin: 15px;
+    padding: 16px 35px;
+    font-size: 27px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.textSlider1 {
+    margin-top: -14%;
+    font-size: 20px;
+    margin-left: 17%;
+    text-align: start;
+    padding: 0px 149px;
+    color: black;
+}
+
+.slides,
+.slides1 {
+    display: none;
+}
+
+.imgslider {
+    width: 100%;
+}
+
+.imgslider1 {
+    width: 20%;
+    margin-left: 9%;
+    border: 20px solid green;
+}
+
+.testomonial .slides1 .textSlider1 p {
+    background: #052501;
+    color: white;
+    padding: 20px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    .box5 {
+        width: 100%;
+        display: block;
+    }
+    .textSlider {
+        margin-top: -62%;
+    }
+    .imgslider {
+        height: 60%;
+    }
+    .textSlider1 {
+        font-size: 26px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .imgslider1 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 2px solid green;
+        border-radius: 10px;
+    }
+    .box,
+    .box4 {
+        width: 100%;
+        display: block;
+    }
+    .box3 {
+        width: 100%;
+        display: block;
+        margin-top: 0px !important;
+    }
+    .box6 {
+        width: 100%;
+        display: block;
+    }
+    .header .logo img {
+        display: contents;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .header ul li {
+        width: 100%;
+    }
+    .header ul li a {
+        font-size: 20px;
+    }
+    .box .img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19%;
+    }
+    .offer .box3 p {
+        font-size: 40px;
+    }
+    .box5 p {
+        font-size: 37px;
+    }
+    .box5 input {
+        display: block;
+        margin: 0 auto;
+        font-size: 29px;
+        padding: 25px 50px;
+    }
+    .box3 .input3 {
+        display: block;
+        margin: 0 auto;
+        font-size: 29px;
+        padding: 25px 50px;
+    }
+    .header ul li a {
+        font-size: 40px;
+    }
+    .header ul li img {
+        width: 11%;
+        margin-right: -2%;
+    }
+    .box h2 {
+        font-size: 40px;
+    }
+    .box h1 {
+        font-size: 78px;
+    }
+    .box .title2 {
+        font-size: 40px;
+    }
+    .navbar ul li {
+        float: inherit;
+        display: block;
+        margin: 0 auto;
+        font-size: 29px;
+        text-align: center;
+    }
+    .navbar .search {
+        float: inherit;
+        margin: 0 auto;
+        font-size: 29px;
+        text-align: center;
+    }
+    .menu1 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .navbar {
+        border-radius: 0 0 0 0 !important;
+    }
+    .navbar ul li {
+        text-align: justify;
+    }
+    .menu1 .navbar span {
+        display: contents;
+    }
+    .navbar ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        transition: ease all 0.5s;
+        font-family: serif;
+        font-family: serif;
+    }
+    .menu1 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .navbar {
+        border-radius: 0 0 0 0 !important;
+    }
+    .navbar ul li {
+        text-align: justify;
+    }
+    .menu1 .navbar span {
+        display: contents;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .imgslider {
+        height: 74%;
+    }
+    .textSlider {
+        margin-top: -134%;
+        padding: 0 22px;
+    }
+    .textSlider input {
+        padding: 16px 13px;
+    }
+    .box5 {
+        width: 100%;
+        display: block;
+    }
+    .box,
+    .box4 {
+        width: 100%;
+        display: block;
+        padding: 9px;
+    }
+    .box3 {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        margin-top: 0px !important;
+    }
+    .box6 {
+        width: 100%;
+        display: block;
+    }
+    .header .logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .header ul li {
+        width: 100%;
+    }
+    .header ul li a {
+        font-size: 20px;
+    }
+    .box .img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19%;
+    }
+    .offer .box3 p {
+        font-size: 23px;
+    }
+    .box5 p {
+        font-size: 22px;
+        text-align: initial;
+    }
+    .box5 input {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 12px 21px;
+    }
+    .box3 .input3 {
+        display: block;
+        margin: 0 auto;
+        font-size: 29px;
+        padding: 25px 50px;
+    }
+    .header ul li a {
+        font-size: 15px;
+        text-align: center;
+    }
+    .header ul li img {
+        width: 23%;
+        margin-right: -10%;
+    }
+    .box h2 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: -26px;
+        line-height: normal;
+    }
+    .box h1 {
+        font-size: 40px;
+    }
+    .box .title2 {
+        font-size: 20px;
+    }
+    .box2 form {
+        width: 76%;
+        background: #052501;
+        padding: 25px;
+    }
+    .navbar ul li {
+        float: inherit;
+        display: block;
+        margin: 0 auto;
+        font-size: 29px;
+        text-align: center;
+    }
+    .navbar .search {
+        float: inherit;
+        margin: 0 auto;
+        font-size: 29px;
+        text-align: center;
+    }
+    .box5 p {
+        margin-top: 0px !important;
+    }
+    .title h2 {
+        margin: 0px !important;
+    }
+}
