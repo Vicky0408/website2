@@ -281,7 +281,7 @@ textarea {
     border-radius: 5px;
     border: 0px;
     padding: 10px;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .box2 .value1 {
@@ -694,14 +694,14 @@ h5 {
         display: none;
     }
     .imgslider {
-        height: 74%;
+        height: 100%;
     }
     .textSlider {
-        margin-top: -134%;
+        margin-top: -185%;
         padding: 0 22px;
     }
     .textSlider input {
-        padding: 16px 13px;
+        padding: 8px 16px;
     }
     .box5 {
         width: 100%;
@@ -781,9 +781,11 @@ h5 {
         font-size: 20px;
     }
     .box2 form {
-        width: 76%;
-        background: #052501;
-        padding: 25px;
+        width: 100%;
+background: #052501;
+padding: 25px;
+margin-left: auto;
+margin-right: auto;
     }
     .navbar ul li {
         float: inherit;
